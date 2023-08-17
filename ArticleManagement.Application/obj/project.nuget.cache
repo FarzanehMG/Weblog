@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1nIldR0gicJ9PUJw+OP8jLr0w58ur/4kbFhP1N6cNdg8NX194n3LwhtTk5voZJMBsimLFahbG+DsknAomGoVuA==",
+  "success": true,
+  "projectFilePath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Application\\ArticleManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mohammad Gholian\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Mohammad Gholian\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Mohammad Gholian\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
