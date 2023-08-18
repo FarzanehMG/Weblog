@@ -4,6 +4,369 @@
     "D:\\.NETCore\\Blog\\Blog\\ServiceHost\\ServiceHost.csproj": {}
   },
   "projects": {
+    "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj",
+        "projectName": "ArticleManagement.Application.Contracts",
+        "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Mohammad Gholian\\.nuget\\packages\\",
+        "outputPath": "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohammad Gholian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\.NETCore\\Blog\\Blog\\Framework\\Framework.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\Framework\\Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Application\\ArticleManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Application\\ArticleManagement.Application.csproj",
+        "projectName": "ArticleManagement.Application",
+        "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Application\\ArticleManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Mohammad Gholian\\.nuget\\packages\\",
+        "outputPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohammad Gholian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj"
+              },
+              "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Configuration\\ArticleManagement.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Configuration\\ArticleManagement.Configuration.csproj",
+        "projectName": "ArticleManagement.Configuration",
+        "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Configuration\\ArticleManagement.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Mohammad Gholian\\.nuget\\packages\\",
+        "outputPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohammad Gholian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj"
+              },
+              "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Application\\ArticleManagement.Application.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Application\\ArticleManagement.Application.csproj"
+              },
+              "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj"
+              },
+              "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj",
+        "projectName": "ArticleManagement.Domain",
+        "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mohammad Gholian\\.nuget\\packages\\",
+        "outputPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohammad Gholian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleMAnagement.Application.Contracts\\ArticleManagement.Application.Contracts.csproj"
+              },
+              "D:\\.NETCore\\Blog\\Blog\\Framework\\Framework.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\Framework\\Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj",
+        "projectName": "ArticleManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Infrastructure.EFCore\\ArticleManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Mohammad Gholian\\.nuget\\packages\\",
+        "outputPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohammad Gholian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Domain\\ArticleManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\.NETCore\\Blog\\Blog\\Framework\\Framework.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -103,6 +466,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Configuration\\ArticleManagement.Configuration.csproj": {
+                "projectPath": "D:\\.NETCore\\Blog\\Blog\\ArticleManagement.Configuration\\ArticleManagement.Configuration.csproj"
+              },
               "D:\\.NETCore\\Blog\\Blog\\Framework\\Framework.csproj": {
                 "projectPath": "D:\\.NETCore\\Blog\\Blog\\Framework\\Framework.csproj"
               }
@@ -118,6 +484,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -7,16 +7,16 @@ namespace ArticleManagement.Infrastructure.EFCore.Repository
 {
     public class ArticleRepository : RepositoryBase<long,Article>,IArticleRepository
     {
-        private readonly ArticleContext _articleContext;
+        private readonly BlogContext _blogContext;
 
-        public ArticleRepository(ArticleContext articleContext) : base(articleContext)
+        public ArticleRepository(BlogContext blogContext) : base(blogContext)
         {
-            _articleContext = articleContext;
+            _blogContext = blogContext;
         }
 
         public EditArticle GetDetails(long id)
         {
-            return _articleContext.Articles.Select(x => new EditArticle
+            return _blogContext.Articles.Select(x => new EditArticle
             {
                 Id = x.Id,
                 CategoryId = x.CategoryId,
@@ -34,13 +34,13 @@ namespace ArticleManagement.Infrastructure.EFCore.Repository
 
         public Article GetWithCategory(long id)
         {
-            return _articleContext.Articles.Include(x => x.Category).FirstOrDefault(x => x.Id == id);
+            return _blogContext.Articles.Include(x => x.Category).FirstOrDefault(x => x.Id == id);
 
         }
 
         public List<ArticleViewModel> Search(ArticleSearchModel searchModel)
         {
-            var query = _articleContext.Articles.Select(x => new ArticleViewModel
+            var query = _blogContext.Articles.Select(x => new ArticleViewModel
             {
                 Id = x.Id,
                 CategoryId = x.CategoryId,

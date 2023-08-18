@@ -11,6 +11,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArticleManagement.Configuration\ArticleManagement.Configuration.csproj" />
     <ProjectReference Include="..\Framework\Framework.csproj" />
   </ItemGroup>
 

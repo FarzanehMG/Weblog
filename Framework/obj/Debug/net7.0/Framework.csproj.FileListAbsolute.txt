@@ -1,0 +1,12 @@
+D:\.NETCore\Blog\Blog\Framework\bin\Debug\net7.0\Framework.deps.json
+D:\.NETCore\Blog\Blog\Framework\bin\Debug\net7.0\Framework.dll
+D:\.NETCore\Blog\Blog\Framework\bin\Debug\net7.0\Framework.pdb
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\Framework.csproj.AssemblyReference.cache
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\Framework.AssemblyInfoInputs.cache
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\Framework.AssemblyInfo.cs
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\Framework.csproj.CoreCompileInputs.cache
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\Framework.dll
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\refint\Framework.dll
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\Framework.pdb
+D:\.NETCore\Blog\Blog\Framework\obj\Debug\net7.0\ref\Framework.dll

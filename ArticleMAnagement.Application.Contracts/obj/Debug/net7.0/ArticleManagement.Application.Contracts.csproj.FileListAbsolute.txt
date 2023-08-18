@@ -1,0 +1,15 @@
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\bin\Debug\net7.0\ArticleManagement.Application.Contracts.deps.json
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\bin\Debug\net7.0\ArticleManagement.Application.Contracts.dll
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\bin\Debug\net7.0\ArticleManagement.Application.Contracts.pdb
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\bin\Debug\net7.0\Framework.dll
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\bin\Debug\net7.0\Framework.pdb
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ArticleManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ArticleManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ArticleManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ArticleManagement.Application.Contracts.AssemblyInfo.cs
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ArticleManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ArticleManagement.Application.Contracts.csproj.CopyComplete
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ArticleManagement.Application.Contracts.dll
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\refint\ArticleManagement.Application.Contracts.dll
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ArticleManagement.Application.Contracts.pdb
+D:\.NETCore\Blog\Blog\ArticleMAnagement.Application.Contracts\obj\Debug\net7.0\ref\ArticleManagement.Application.Contracts.dll

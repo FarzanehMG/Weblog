@@ -7,22 +7,22 @@ namespace ArticleManagement.Infrastructure.EFCore.Repository
 {
     public class ArticleCategoryRepository : RepositoryBase<long,ArticleCategory>,IArticleCategoryRepository
     {
-        private readonly ArticleContext _articleContext;
-        public ArticleCategoryRepository(ArticleContext articleContext) : base(articleContext)
+        private readonly BlogContext _blogContext;
+        public ArticleCategoryRepository(BlogContext blogContext) : base(blogContext)
         {
-            _articleContext = articleContext;
+            _blogContext = blogContext;
         }
 
 
         public string GetSlugBy(long id)
         {
-            return _articleContext.ArticleCategories.Select(x => new { x.Id, x.Slug })
+            return _blogContext.ArticleCategories.Select(x => new { x.Id, x.Slug })
                 .FirstOrDefault(x => x.Id == id).Slug;
         }
 
         public EditArticleCategory GetDetails(long id)
         {
-            return _articleContext.ArticleCategories.Select(x=>new EditArticleCategory
+            return _blogContext.ArticleCategories.Select(x=>new EditArticleCategory
             {
                 Description = x.Description,
                 Id = id,
@@ -37,7 +37,7 @@ namespace ArticleManagement.Infrastructure.EFCore.Repository
 
         public List<ArticleCategoryViewModel> GetArticleCategories()
         {
-            return _articleContext.ArticleCategories.Select(x => new ArticleCategoryViewModel
+            return _blogContext.ArticleCategories.Select(x => new ArticleCategoryViewModel
             {
                 Id = x.Id,
                 Name = x.Name,
@@ -46,7 +46,7 @@ namespace ArticleManagement.Infrastructure.EFCore.Repository
 
         public List<ArticleCategoryViewModel> Search(ArticleCategorySearchModel searchModel)
         {
-            var query = _articleContext.ArticleCategories
+            var query = _blogContext.ArticleCategories
                 .Include(x => x.Articles)
                 .Select(x => new ArticleCategoryViewModel
                 {

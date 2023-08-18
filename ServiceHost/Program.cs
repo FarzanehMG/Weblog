@@ -1,3 +1,6 @@
+using ArticleManagement.Configuration;
+using Framework.Application;
+
 namespace ServiceHost
 {
     public class Program
@@ -9,7 +12,14 @@ namespace ServiceHost
             // Add services to the container.
             builder.Services.AddRazorPages();
 
+            BlogManagementBootstrapper.Configure(builder.Services,
+                builder.Configuration.GetConnectionString("BlogDb"));
+
+            builder.Services.AddTransient<IFileUploader, FileUploader>();
+
             var app = builder.Build();
+
+            
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -29,6 +39,7 @@ namespace ServiceHost
             app.MapRazorPages();
 
             app.Run();
+
         }
     }
 }

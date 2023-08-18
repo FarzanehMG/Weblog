@@ -1,0 +1,17 @@
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\bin\Debug\net7.0\ArticleManagement.Domain.deps.json
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\bin\Debug\net7.0\ArticleManagement.Domain.dll
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\bin\Debug\net7.0\ArticleManagement.Domain.pdb
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\bin\Debug\net7.0\ArticleManagement.Application.Contracts.dll
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\bin\Debug\net7.0\Framework.dll
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\bin\Debug\net7.0\ArticleManagement.Application.Contracts.pdb
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\bin\Debug\net7.0\Framework.pdb
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ArticleManagement.Domain.csproj.AssemblyReference.cache
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ArticleManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ArticleManagement.Domain.AssemblyInfoInputs.cache
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ArticleManagement.Domain.AssemblyInfo.cs
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ArticleManagement.Domain.csproj.CoreCompileInputs.cache
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ArticleManagement.Domain.csproj.CopyComplete
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ArticleManagement.Domain.dll
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\refint\ArticleManagement.Domain.dll
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ArticleManagement.Domain.pdb
+D:\.NETCore\Blog\Blog\ArticleManagement.Domain\obj\Debug\net7.0\ref\ArticleManagement.Domain.dll
