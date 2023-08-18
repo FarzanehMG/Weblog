@@ -1,0 +1,15 @@
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\bin\Debug\net7.0\AccountManagement.Application.Contracts.deps.json
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\bin\Debug\net7.0\AccountManagement.Application.Contracts.dll
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\bin\Debug\net7.0\AccountManagement.Application.Contracts.pdb
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\bin\Debug\net7.0\Framework.dll
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\bin\Debug\net7.0\Framework.pdb
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\AccountManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\AccountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\AccountManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\AccountManagement.Application.Contracts.AssemblyInfo.cs
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\AccountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\AccountManagement.Application.Contracts.csproj.CopyComplete
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\AccountManagement.Application.Contracts.dll
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\refint\AccountManagement.Application.Contracts.dll
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\AccountManagement.Application.Contracts.pdb
+D:\.NETCore\Blog\Blog\AccountManagement.Application.Contracts\obj\Debug\net7.0\ref\AccountManagement.Application.Contracts.dll

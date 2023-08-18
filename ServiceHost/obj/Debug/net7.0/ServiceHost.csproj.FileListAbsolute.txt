@@ -85,3 +85,14 @@ D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\Microsoft.EntityFrameworkCore
 D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\System.CodeDom.dll
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Application.Contracts.dll
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Application.dll
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Configuration.dll
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Domain.dll
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.dll
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Configuration.pdb
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Application.pdb
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Application.Contracts.pdb
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Domain.pdb
+D:\.NETCore\Blog\Blog\ServiceHost\bin\Debug\net7.0\AccountManagement.Infrastructure.EFCore.pdb

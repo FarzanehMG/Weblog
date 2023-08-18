@@ -2,6 +2,7 @@
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Framework.Infrastructure
 {
     public class RepositoryBase<TKey, T> : IRepository<TKey, T> where T : class

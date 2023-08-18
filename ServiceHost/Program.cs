@@ -1,3 +1,4 @@
+using AccountManagement.Configuration;
 using ArticleManagement.Configuration;
 using Framework.Application;
 
@@ -12,10 +13,21 @@ namespace ServiceHost
             // Add services to the container.
             builder.Services.AddRazorPages();
 
+
             BlogManagementBootstrapper.Configure(builder.Services,
                 builder.Configuration.GetConnectionString("BlogDb"));
 
+            AccountManagementBootstrapper.Configure(builder.Services,
+                builder.Configuration.GetConnectionString("BlogDb"));
+
+
+            builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
             builder.Services.AddTransient<IFileUploader, FileUploader>();
+            builder.Services.AddTransient<IAuthHelper, AuthHelper>();
+
+
+            builder.Services.AddHttpContextAccessor();
+
 
             var app = builder.Build();
 
