@@ -16,8 +16,15 @@ namespace ArticleManagement.Infrastructure.EFCore.Repository
 
         public string GetSlugBy(long id)
         {
-            return _blogContext.ArticleCategories.Select(x => new { x.Id, x.Slug })
-                .FirstOrDefault(x => x.Id == id).Slug;
+            /*return _blogContext.ArticleCategories.Select(x => new { x.Id, x.Slug })
+                .FirstOrDefault(x => x.Id == id).Slug;*/
+
+            var result = _blogContext.ArticleCategories
+                .Where(x => x.Id == id)
+                .Select(x => new { x.Id, x.Slug })
+                .FirstOrDefault();
+
+            return result?.Slug; // اگر نتیجه null نباشد، خصوصیت Slug را بازگردانی می‌کند
         }
 
         public EditArticleCategory GetDetails(long id)
@@ -41,7 +48,7 @@ namespace ArticleManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 Name = x.Name,
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
 
         public List<ArticleCategoryViewModel> Search(ArticleCategorySearchModel searchModel)
@@ -61,7 +68,7 @@ namespace ArticleManagement.Infrastructure.EFCore.Repository
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
                 query = query.Where(x => x.Name.Contains(searchModel.Name));
 
-            return query.OrderByDescending(x => x.Id).ToList();
+            return query.OrderByDescending(x => x.Id).AsNoTracking().ToList();
         }
     }
 }

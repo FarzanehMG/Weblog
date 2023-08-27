@@ -37,7 +37,7 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 Fullname = x.Fullname
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
 
         public List<AccountViewModel> Search(AccountSearchModel searchModel)
@@ -66,7 +66,7 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
             if (searchModel.RoleId > 0)
                 query = query.Where(x => x.RoleId == searchModel.RoleId);
 
-            return query.OrderByDescending(x => x.Id).ToList();
+            return query.OrderByDescending(x => x.Id).AsNoTracking().ToList();
         }
     }
 }
